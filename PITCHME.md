@@ -293,6 +293,21 @@ void OpenInputFile(string fname) {
 
 +++
 
+## Demo XI
+
+```csharp
+void OpenInputFile(string fname) {
+	string file2open = fname;
+
+	if (string.IsNullOrEmpty(fname)) {
+		file2open = "inputfi.csv";
+	}
+	// Process `file2open`
+}
+```
+
+---
+
 ## Quiz V
 
 How to get the number of elements in `inputData` and assign to `count` correctly?
@@ -306,7 +321,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XI
+## Demo XII
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -319,7 +334,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XII
+## Demo XIII
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -342,7 +357,7 @@ var count = inputData?.Length;
 
 +++
 
-## Demo XIII
+## Demo XIV
 
 ```csharp
 void ComputeMean(int[] inputData) {
@@ -352,7 +367,7 @@ void ComputeMean(int[] inputData) {
 
 +++
 
-## Demo XIV
+## Demo XV
 
 ```csharp
 void ComputeMean(int[] inputData) {
