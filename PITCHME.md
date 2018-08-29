@@ -284,7 +284,7 @@ void OpenInputFile(string fname) {
 
 ```csharp
 void OpenInputFile(string fname) {
-	string file2open = string.IsNullOrWhitespace(fname)
+	string file2open = string.IsNullOrWhiteSpace(fname)
 		? "inputfi.csv"
 		: fname;
 	// Process `file2open`
@@ -299,7 +299,7 @@ void OpenInputFile(string fname) {
 void OpenInputFile(string fname) {
 	string file2open = fname;
 
-	if (string.IsNullOrWhitespace(fname)) {
+	if (string.IsNullOrWhiteSpace(fname)) {
 		file2open = "inputfi.csv";
 	}
 	// Process `file2open`
